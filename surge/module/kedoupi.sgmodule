@@ -27,7 +27,7 @@ RULE-SET,https://raw.githubusercontent.com/kedoupi/kedoupi/main/surge/rule/Proxy
 
 [MITM]
 # 配置需要拦截的域名
-hostname = h5app.kuwo.cn
+#hostname = h5app.kuwo.cn
 
 # 使用脚本来注入 JavaScript
-KuwoInjectScript = type=http-response, pattern=^https?:\/\/h5app\.kuwo\.cn\/, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/kedoupi/kedoupi/main/surge/script/vconsole.js
+#KuwoInjectScript = type=http-response, pattern=^https?:\/\/h5app\.kuwo\.cn\/, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/kedoupi/kedoupi/main/surge/script/vconsole.js
