@@ -25,10 +25,3 @@ RULE-SET,https://raw.githubusercontent.com/kedoupi/kedoupi/main/surge/rule/Proxy
 # URL 重写规则
 #^https:\/\/old-api\.example\.com\/(.*) url 302 https://new-api.example.com/$1
 
-[MITM]
-# 配置需要拦截的域名
-enabled = true
-hostname = h5app.kuwo.cn
-
-# 使用脚本来注入 JavaScript
-KuwoInjectScript = type=http-response, pattern=^https?:\/\/h5app\.kuwo\.cn\/, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/kedoupi/kedoupi/main/surge/script/vconsole.js
