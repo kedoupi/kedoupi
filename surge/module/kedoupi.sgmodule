@@ -1,3 +1,10 @@
+#!name=KeDouPiModule
+#!desc=自己的一个私人模块
+#!author=RenYuanZhang
+#!homepage=https://kedoupi.com
+#!icon=https://raw.githubusercontent.com/chavyleung/scripts/master/box/icons/BoxJs.png
+#!category=KeDouPi
+
 [General]
 name = KeDouPiModule
 version = 1.0
