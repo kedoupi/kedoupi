@@ -1,9 +1,12 @@
 <div align="center" width="100%">
   <img src="https://github.com/songjianet/songjianet/blob/main/images/working.gif" width="550" />
 
-  #### Hi 👋 coders
-  #### I am a dream colorist
-  #### A technocrat who loves to contribute to Open Source
+#### Hi 👋 coders
+
+#### I am a dream colorist
+
+#### A technocrat who loves to contribute to Open Source
+
 </div>
 
 ---
@@ -15,8 +18,8 @@
 - 🎧 &nbsp;&nbsp;Like to listen to **music** and watch **movies**
 - 🐈‍ &nbsp;&nbsp;Like **puppy** and **kittens**
 - 🧑🏻‍💻 &nbsp;&nbsp;Like to write **code**
-<!-- - ⛏ &nbsp;&nbsp;Recently addicted to **blockchain** and **digital cryptocurrency** -->
-<!-- 📝 &nbsp;&nbsp;See my [**Curriculum Vitae**](https://) to get more info.-->
+  <!-- - ⛏ &nbsp;&nbsp;Recently addicted to **blockchain** and **digital cryptocurrency** -->
+  <!-- 📝 &nbsp;&nbsp;See my [**Curriculum Vitae**](https://) to get more info.-->
 
 <br />
 
