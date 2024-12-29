@@ -13,7 +13,6 @@ author = RenYuanZhang
 
 [Rule]
 # 在这里定义规则
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list,🤖 ChatGPT
 RULE-SET,https://raw.githubusercontent.com/kedoupi/kedoupi/main/surge/rule/Default.list, DIRECT
 RULE-SET,https://raw.githubusercontent.com/kedoupi/kedoupi/main/surge/rule/Proxy.list, 🤖 ChatGPT
 
