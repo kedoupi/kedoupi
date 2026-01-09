@@ -59,8 +59,22 @@ const me = {
 ### 📈 GitHub 统计
 
 <div align="center">
-  <img height="165px" src="https://github-readme-stats.vercel.app/api?username=kedoupi&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kedoupi&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" />
+  <a href="https://github.com/kedoupi">
+    <img height="180px" src="https://github-readme-stats.vercel.app/api?username=kedoupi&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  </a>
+  <a href="https://github.com/kedoupi">
+    <img height="180px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kedoupi&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/kedoupi">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=kedoupi&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kedoupi&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
 </div>
 
 ---
