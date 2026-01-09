@@ -59,8 +59,16 @@ const me = {
 ### 📈 GitHub 统计
 
 <div align="center">
-  <img height="165px" src="https://github-readme-stats.vercel.app/api?username=kedoupi&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kedoupi&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=kedoupi&show_icons=true&theme=tokyonight&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=kedoupi&show_icons=true&theme=default&hide_border=true" />
+    <img height="165px" src="https://github-readme-stats-eight-theta.vercel.app/api?username=kedoupi&show_icons=true&theme=tokyonight&hide_border=true" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=kedoupi&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=kedoupi&layout=compact&langs_count=8&theme=default&hide_border=true" />
+    <img height="165px" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=kedoupi&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" />
+  </picture>
 </div>
 
 ---
