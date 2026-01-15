@@ -1,4 +1,7 @@
 <div align="center">
+  <img src="https://raw.githubusercontent.com/songjianet/songjianet/main/images/working.gif" width="500" />
+  
+  <br/>
 
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Hey+👋+I'm+an+Indie+Developer;Digital+Nomad+🌍+Code+Anywhere;Building+AI-Powered+Apps+🤖;Frontend+Expert+%7C+Web+%26+Native" alt="Typing SVG" />
