@@ -10,7 +10,7 @@
   <br/><br/>
 
   <a href="https://ct.xiaotaozi.cc/personality?utm_source=github&utm_medium=readme_badge&utm_campaign=github_mbti&from_github=kedoupi">
-    <img src="https://ct.xiaotaozi.cc/api/personality/types/ragx.png" alt="GitHub MBTI" width="210" />
+    <img src="https://ct.xiaotaozi.cc/images/personality/badges/ragx.png" alt="GitHub MBTI" width="210" />
   </a>
 
 </div>
