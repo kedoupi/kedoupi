@@ -7,6 +7,12 @@
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Hey+👋+I'm+an+Indie+Developer;Digital+Nomad+🌍+Code+Anywhere;Building+AI-Powered+Apps+🤖;Frontend+Expert+%7C+Web+%26+Native" alt="Typing SVG" />
   </a>
 
+  <br/><br/>
+
+  <a href="https://ct.xiaotaozi.cc/personality?utm_source=github&utm_medium=readme_badge&utm_campaign=github_mbti&from_github=kedoupi">
+    <img src="https://ct.xiaotaozi.cc/api/personality/badge/kedoupi.png" alt="GitHub MBTI" width="210" />
+  </a>
+
 </div>
 
 ---
