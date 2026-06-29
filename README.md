@@ -4,7 +4,7 @@
   <br/>
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Hey+👋+I'm+an+Indie+Developer;Digital+Nomad+🌍+Code+Anywhere;Building+AI-Powered+Apps+🤖;Frontend+Expert+%7C+Web+%26+Native" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Hey+%F0%9F%91%8B+I%27m+an+Indie+Developer;Digital+Nomad+%F0%9F%8C%8D+Code+Anywhere;Building+AI-Powered+Apps+%F0%9F%A4%96;Frontend+Expert+%7C+Web+%26+Native" alt="Typing SVG" />
   </a>
 
   <br/><br/>
