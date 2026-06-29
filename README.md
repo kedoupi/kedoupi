@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/songjianet/songjianet/main/images/working.gif" width="500" />
+  <img src="./assets/working.gif" width="500" />
   
   <br/>
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Hey+👋+I'm+an+Indie+Developer;Digital+Nomad+🌍+Code+Anywhere;Building+AI-Powered+Apps+🤖;Frontend+Expert+%7C+Web+%26+Native" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Hey+👋+I'm+an+Indie+Developer;Digital+Nomad+🌍+Code+Anywhere;Building+AI-Powered+Apps+🤖;Frontend+Expert+%7C+Web+%26+Native" alt="Typing SVG" />
   </a>
 
   <br/><br/>
@@ -78,7 +78,7 @@ const me = {
 
 <div align="center">
   <a href="https://github.com/kedoupi">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=kedoupi&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com/?user=kedoupi&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
   </a>
 </div>
 
@@ -90,7 +90,7 @@ const me = {
 
 <div align="center">
 
-  <img src="https://profile-counter.glitch.me/kedoupi/count.svg" alt="Visitor Count" />
+  <img src="https://komarev.com/ghpvc/?username=kedoupi&style=flat-square&color=36BCF7" alt="Visitor Count" />
 
   <br/><br/>
 
