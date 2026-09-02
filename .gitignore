@@ -131,3 +131,9 @@ dist
 
 # Trae IDE
 .trae/
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db

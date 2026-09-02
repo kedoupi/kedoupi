@@ -1,31 +1,23 @@
 # 项目文档
 
-记录我的项目开发过程和经验总结。
+公开仓库以 GitHub 主页精选为准；这里只记产品族和入口，避免把归档或私有仓写成演示作品。
 
-## 项目分类
+## 小桃子 / Xiaotaozi
 
-### 前端项目
-- [React项目](./web-development/react/)
-- [Vue项目](./web-development/vue/)
-- [小程序项目](./web-development/miniprogram/)
+正在推进的 AI Agent 产品族：桌面端、插件、中文终端、Skill 生态。桌面 Agent 与公众号智能体等仓库暂未公开，不在此深链。
 
-### 后端项目
-- [Node.js项目](./backend/nodejs/)
-- [Python项目](./backend/python/)
-- [微服务项目](./backend/microservices/)
+### 公开入口
 
-### 移动端项目
-- [React Native项目](./mobile/react-native/)
-- [Flutter项目](./mobile/flutter/)
+- [xiaotaozi-dsh](https://github.com/kedoupi/xiaotaozi-dsh) — DeepSeek Harness 插件与 `xtz` CLI
+- [tzWarp](https://github.com/kedoupi/tzWarp) — 中文 AI 终端（Rust）
+- [pi-plugins](https://github.com/kedoupi/pi-plugins) — Pi 一等公民插件与精选目录
+- [skills](https://github.com/kedoupi/skills) — Agent Skill 孵化器
 
-## 项目模板
+### 其他公开作品
 
-- [前端项目模板](./templates/frontend/)
-- [后端项目模板](./templates/backend/)
-- [全栈项目模板](./templates/fullstack/)
+- [portfolio-monitor](https://github.com/kedoupi/portfolio-monitor) — 股票监控 + Telegram 告警
+- [taozi-plugin](https://github.com/kedoupi/taozi-plugin) — Claude Code / Codex 插件工具集
 
-## 开发规范
+## 不再作为主展示
 
-- [代码规范](./standards/coding/)
-- [Git工作流](./standards/git/)
-- [文档规范](./standards/documentation/)
+`cconfig`、`yapi-mcp`、`wecombot-mcp`、`openclaw-miniapp` 等仓库已归档或不再是当前主线，请以主页 README 为准。
