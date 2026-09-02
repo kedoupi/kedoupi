@@ -17,7 +17,26 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # PR and push: keep a Pages-independent check green.
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify static entrypoints
+        run: |
+          test -f index.html
+          test -f README.md
+          test -f assets/css/style.css
+          test -f assets/js/script.js
+          test -f assets/working.gif
+          test ! -e .DS_Store
+
+  # Production Pages upload only after merge / manual dispatch.
   build:
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    needs: validate
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -25,14 +44,8 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
-
-      - name: Verify static entrypoints
-        run: |
-          test -f index.html
-          test -f README.md
-          test -f assets/css/style.css
-          test -f assets/working.gif
-          test ! -e .DS_Store
+        with:
+          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
