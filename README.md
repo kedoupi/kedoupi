@@ -110,6 +110,13 @@ npx skills add kedoupi/lark-push-skill
   <img src="https://ghchart.rshah.org/36BCF7/kedoupi" alt="GitHub Contributions" />
 </div>
 
+<br/>
+
+### 📬 联系
+
+- 站点：[ct.xiaotaozi.cc](https://ct.xiaotaozi.cc)
+- GitHub：[@kedoupi](https://github.com/kedoupi)
+
 ---
 
 <div align="center">

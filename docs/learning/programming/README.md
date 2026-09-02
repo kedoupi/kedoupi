@@ -4,20 +4,12 @@
 
 ## 目录
 
-- [JavaScript](./javascript/)
-- [Python](./python/)
-- [算法与数据结构](./algorithms/)
-- [系统设计](./system-design/)
+- [JavaScript](./javascript.md)
 
-## 学习计划
-
-- [ ] 深入学习JavaScript高级特性
-- [ ] 掌握Python数据科学栈
-- [ ] 刷题提升算法能力
-- [ ] 学习分布式系统设计
+更多主题（Python、算法、系统设计）有内容后再补。
 
 ## 学习资源
 
 - [MDN Web Docs](https://developer.mozilla.org/)
 - [LeetCode](https://leetcode.cn/)
-- [Python官方文档](https://docs.python.org/)
+- [Python 官方文档](https://docs.python.org/)
