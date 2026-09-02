@@ -2,70 +2,84 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>kedoupi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>kedoupi · 小桃子</title>
   <meta name="description" content="独立开发者 kedoupi。主要在做小桃子：给中文开发者用的 AI Agent 工具。">
+  <meta property="og:title" content="kedoupi · 小桃子">
+  <meta property="og:description" content="独立开发者。主要在做小桃子：给中文开发者用的 AI Agent 工具。">
+  <meta property="og:type" content="website">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <main class="page">
-    <header class="header">
-      <img class="avatar" src="https://github.com/kedoupi.png" alt="kedoupi" width="72" height="72">
-      <div>
-        <h1>kedoupi</h1>
-        <p class="tagline">独立开发者 · 小桃子</p>
-      </div>
+  <main class="wrap">
+    <header class="hero">
+      <p class="eyebrow">KeDouPi / 珂抖屁</p>
+      <h1>做给中文开发者用的<br>Agent 工具。</h1>
+      <p class="lede">
+        我是独立开发者，主要在做
+        <a href="https://ct.xiaotaozi.cc">小桃子</a>：
+        插件、终端、CLI，以及还在私有仓库里的桌面端。
+        公开仓库放下面。
+      </p>
     </header>
 
-    <p class="intro">
-      主要在做 <a href="https://ct.xiaotaozi.cc">小桃子</a>：给中文开发者用的 AI Agent 工具。
-      公开仓库大致是这些。
-    </p>
-
-    <section>
-      <h2>小桃子相关</h2>
-      <ul class="projects">
+    <section aria-labelledby="building">
+      <h2 id="building">在做</h2>
+      <ul class="list">
         <li>
-          <a href="https://github.com/kedoupi/xiaotaozi-dsh">xiaotaozi-dsh</a>
-          <span>DeepSeek Harness 插件 / xtz CLI</span>
+          <a class="name" href="https://github.com/kedoupi/xiaotaozi-dsh">xiaotaozi-dsh</a>
+          <p>小桃子 DSH。xtz CLI + DeepSeek Harness 插件，模型服务商、IM、市场。</p>
         </li>
         <li>
-          <a href="https://github.com/kedoupi/tzWarp">tzWarp</a>
-          <span>中文 AI 终端（Rust）</span>
+          <a class="name" href="https://github.com/kedoupi/tzWarp">tzWarp</a>
+          <p>中文 AI 终端（Rust）。命令先出卡片，确认后再执行。</p>
         </li>
         <li>
-          <a href="https://github.com/kedoupi/pi-plugins">pi-plugins</a>
-          <span>Pi 生态插件</span>
+          <a class="name" href="https://github.com/kedoupi/pi-plugins">pi-plugins</a>
+          <p>Pi 生态的一等公民插件与目录。</p>
         </li>
         <li>
-          <a href="https://github.com/kedoupi/taozi-plugin">taozi-plugin</a>
-          <span>Claude Code / Codex 插件集</span>
+          <a class="name" href="https://github.com/kedoupi/taozi-plugin">taozi-plugin</a>
+          <p>Claude Code / Codex 的工作流、Skills、Hooks。</p>
         </li>
         <li>
-          <a href="https://github.com/kedoupi/skills">skills</a>
-          <span>Agent Skill 孵化器</span>
+          <a class="name" href="https://github.com/kedoupi/skills">skills</a>
+          <p>Agent Skill 孵化器。生图、公众号、飞书推送等各自发版。</p>
         </li>
       </ul>
     </section>
 
-    <section>
-      <h2>其他</h2>
-      <ul class="projects">
+    <section aria-labelledby="also">
+      <h2 id="also">顺手</h2>
+      <ul class="list">
         <li>
-          <a href="https://github.com/kedoupi/portfolio-monitor">portfolio-monitor</a>
-          <span>美股 / A 股监控 + Telegram 告警</span>
+          <a class="name" href="https://github.com/kedoupi/portfolio-monitor">portfolio-monitor</a>
+          <p>美股 / A 股监控，Telegram 告警，Docker 一键起。</p>
         </li>
       </ul>
     </section>
 
-    <p class="note">桌面端和公众号智能体还在私有仓库推进，这里不放演示。</p>
+    <section aria-labelledby="now">
+      <h2 id="now">最近</h2>
+      <p class="prose">
+        还在打磨 DSH 的界面和市场，以及配套 Mac 客户端。
+        桌面 Agent 和公众号智能体暂未公开。
+      </p>
+    </section>
+
+    <section aria-labelledby="connect">
+      <h2 id="connect">联系</h2>
+      <p class="prose links">
+        <a href="https://ct.xiaotaozi.cc">ct.xiaotaozi.cc</a>
+        <span aria-hidden="true">·</span>
+        <a href="https://github.com/kedoupi">GitHub</a>
+        <span aria-hidden="true">·</span>
+        <a href="docs/">知识库</a>
+      </p>
+    </section>
 
     <footer>
-      <a href="https://ct.xiaotaozi.cc">ct.xiaotaozi.cc</a>
-      ·
-      <a href="https://github.com/kedoupi">GitHub</a>
-      ·
-      <a href="docs/">知识库</a>
+      <p>kedoupi · 小桃子</p>
     </footer>
   </main>
 </body>
