@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" class="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,141 +8,194 @@
   <meta property="og:title" content="kedoupi · 小桃子">
   <meta property="og:description" content="独立开发者。主要在做小桃子：给中文开发者用的 AI Agent 工具。">
   <meta property="og:type" content="website">
+  <meta name="color-scheme" content="dark light">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=JetBrains+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    (function () {
+      var dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.classList.toggle('dark', dark);
+      document.documentElement.classList.toggle('light', !dark);
+    })();
+  </script>
 </head>
 <body>
-  <main class="wrap">
-    <header class="hero">
+  <main class="lp">
+    <section class="hero">
       <p class="eyebrow">KeDouPi / 珂抖屁</p>
       <h1>做给中文开发者用的<br>Agent 工具。</h1>
-      <p class="lede">
-        我是独立开发者，也经常远程换地方写代码。
-        现在主要精力在
-        <a href="https://ct.xiaotaozi.cc">小桃子</a>：
-        一套面向中文开发者的 AI Agent 工具线——CLI、插件、终端，
-        以及还在私有仓库里的桌面端和公众号智能体。
+      <p class="lead">
+        独立开发者。主要在做
+        <a href="https://ct.xiaotaozi.cc">小桃子</a>
+        —— CLI、插件、终端，以及还在私有仓里的桌面端。
+        产品到发布自己闭环。下面是公开仓库。
       </p>
-      <p class="lede second">
-        产品、工程到发布基本上自己闭环。
-        下面只列公开仓库；私有的部分有了稳定入口再放上来。
-      </p>
-    </header>
-
-    <section aria-labelledby="stack">
-      <h2 id="stack">常用技术</h2>
-      <p class="prose">
-        TypeScript、Rust、Python、Vue；跑在 Node / Docker 上比较多。
-        工具侧主要是 Git 和 VS Code / Cursor 一类编辑器。
-        没有特别花哨的栈，能把 Agent 工作流跑顺就行。
-      </p>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://dsh.xiaotaozi.cc/">看小桃子 DSH</a>
+        <a class="btn btn-ghost" href="https://github.com/kedoupi">GitHub</a>
+      </div>
     </section>
 
-    <section aria-labelledby="building">
-      <h2 id="building">在做</h2>
-      <ul class="list">
+    <section class="highlights" aria-labelledby="stack-title">
+      <h2 id="stack-title">进来就能对上的几件事</h2>
+      <ul>
         <li>
-          <a class="name" href="https://github.com/kedoupi/xiaotaozi-dsh">xiaotaozi-dsh</a>
-          <p>
-            小桃子 DSH 的公开主仓。
-            <code>xtz</code> CLI + DeepSeek Harness 插件，
-            覆盖模型服务商、IM、企业微信办公、侧栏工作台和小桃子市场。
-          </p>
+          <strong>小桃子主线</strong>
+          <p>DSH 插件、中文终端、Pi 包、Agent Skills，都围着本机 Agent 工作流转。</p>
         </li>
         <li>
-          <a class="name" href="https://github.com/kedoupi/tzWarp">tzWarp</a>
-          <p>
-            中文 AI 终端，Rust 实现，基于开源 Warp。
-            直连小桃子中转，命令先出卡片，确认后再执行。
-          </p>
+          <strong>常用技术</strong>
+          <p>TypeScript、Rust、Python、Vue；Node / Docker 跑得比较多。</p>
         </li>
         <li>
-          <a class="name" href="https://github.com/kedoupi/pi-plugins">pi-plugins</a>
-          <p>
-            Pi 生态的一等公民插件与精选目录，
-            含飞书 IM 等 first-party package。
-          </p>
+          <strong>远程写代码</strong>
+          <p>经常换地方办公。公开仓只放能拿得出手的，私有的有入口再挂。</p>
         </li>
         <li>
-          <a class="name" href="https://github.com/kedoupi/taozi-plugin">taozi-plugin</a>
-          <p>
-            Claude Code / Codex 插件工具集：
-            工作流、Skills、Hooks，以及一些 AI 创作向能力。
-          </p>
-        </li>
-        <li>
-          <a class="name" href="https://github.com/kedoupi/skills">skills</a>
-          <p>
-            公开的 Agent Skill 孵化器。
-            成熟一点的 skill 会拆成独立仓库发版。
-          </p>
+          <strong>可直接装</strong>
+          <p>几个 Skill 已经拆仓发版，一条 <code>npx</code> 就能试。</p>
         </li>
       </ul>
     </section>
 
-    <section aria-labelledby="skills">
-      <h2 id="skills">可直接装的 Skills</h2>
-      <ul class="list">
+    <section class="plugins" aria-labelledby="building">
+      <div class="plugins-head">
+        <h2 id="building">在做</h2>
+        <a href="https://dsh.xiaotaozi.cc/">产品站</a>
+      </div>
+      <ul>
         <li>
-          <a class="name" href="https://github.com/kedoupi/tzai-image-skill">tzai-image-skill</a>
-          <p>经 TaoziAPI 做自然语言生图 / 视觉项目。</p>
+          <a href="https://github.com/kedoupi/xiaotaozi-dsh">
+            <span class="mark">DSH</span>
+            <span>
+              <strong>xiaotaozi-dsh</strong>
+              xtz CLI + DeepSeek Harness 插件。模型服务商、IM、企微办公、侧栏工作台、市场。
+            </span>
+          </a>
         </li>
         <li>
-          <a class="name" href="https://github.com/kedoupi/wechat-mp-skill">wechat-mp-skill</a>
-          <p>微信公众号成稿 + 本地预览，可选草稿箱。</p>
+          <a href="https://github.com/kedoupi/tzWarp">
+            <span class="mark">TZ</span>
+            <span>
+              <strong>tzWarp</strong>
+              中文 AI 终端（Rust）。直连小桃子中转，命令先出卡片再确认。
+            </span>
+          </a>
         </li>
         <li>
-          <a class="name" href="https://github.com/kedoupi/lark-push-skill">lark-push-skill</a>
-          <p>飞书 / Lark 进度、日报、发布通知。</p>
+          <a href="https://github.com/kedoupi/pi-plugins">
+            <span class="mark">Pi</span>
+            <span>
+              <strong>pi-plugins</strong>
+              Pi 生态一等公民插件与目录，含飞书 IM 等 first-party package。
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/kedoupi/taozi-plugin">
+            <span class="mark">TZ</span>
+            <span>
+              <strong>taozi-plugin</strong>
+              Claude Code / Codex 工作流、Skills、Hooks 与创作向能力。
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/kedoupi/skills">
+            <span class="mark">Sk</span>
+            <span>
+              <strong>skills</strong>
+              Agent Skill 孵化器；成熟的会拆独立仓发版。
+            </span>
+          </a>
         </li>
       </ul>
-      <pre class="code"><code>npx skills add kedoupi/tzai-image-skill -g --all
+    </section>
+
+    <section class="plugins" aria-labelledby="skills">
+      <div class="plugins-head">
+        <h2 id="skills">可直接装的 Skills</h2>
+      </div>
+      <ul>
+        <li>
+          <a href="https://github.com/kedoupi/tzai-image-skill">
+            <span class="mark">图</span>
+            <span>
+              <strong>tzai-image-skill</strong>
+              经 TaoziAPI 做自然语言生图 / 视觉项目。
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/kedoupi/wechat-mp-skill">
+            <span class="mark">号</span>
+            <span>
+              <strong>wechat-mp-skill</strong>
+              微信公众号成稿 + 本地预览，可选草稿箱。
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/kedoupi/lark-push-skill">
+            <span class="mark">书</span>
+            <span>
+              <strong>lark-push-skill</strong>
+              飞书 / Lark 进度、日报、发布通知。
+            </span>
+          </a>
+        </li>
+      </ul>
+      <div class="term" role="group" aria-label="安装命令">
+        <div class="term-tabs">
+          <span class="on">npx</span>
+        </div>
+        <pre><code>npx skills add kedoupi/tzai-image-skill -g --all
 npx skills add kedoupi/wechat-mp-skill
 npx skills add kedoupi/lark-push-skill</code></pre>
+      </div>
     </section>
 
-    <section aria-labelledby="also">
-      <h2 id="also">顺手</h2>
-      <ul class="list">
+    <section class="plugins" aria-labelledby="also">
+      <div class="plugins-head">
+        <h2 id="also">顺手</h2>
+      </div>
+      <ul>
         <li>
-          <a class="name" href="https://github.com/kedoupi/portfolio-monitor">portfolio-monitor</a>
-          <p>
-            股票监控工作台：美股 + A 股实时行情、
-            多档 Telegram 告警，Docker 一键部署。
-          </p>
+          <a href="https://github.com/kedoupi/portfolio-monitor">
+            <span class="mark">PM</span>
+            <span>
+              <strong>portfolio-monitor</strong>
+              美股 / A 股监控、Telegram 告警，Docker 一键起。
+            </span>
+          </a>
         </li>
       </ul>
     </section>
 
-    <section aria-labelledby="now">
-      <h2 id="now">最近</h2>
-      <p class="prose">
-        还在打磨 DSH 的界面、市场、IM 和模型服务商接入，
-        以及配套的 Mac 客户端。
-        桌面 Agent 工作站和公众号智能体继续在私有仓推进，
-        公开版出来之前这里先不放演示。
-      </p>
-      <p class="prose second">
-        有空也会写一点独立开发和远程工作的笔记，
-        散落在知识库和仓库文档里。
-      </p>
+    <section class="stage">
+      <div class="stage-copy">
+        <h2>最近</h2>
+        <p>
+          还在打磨 DSH 的界面、市场、IM 和模型服务商接入，以及配套 Mac 客户端。
+          桌面 Agent 和公众号智能体继续在私有仓推进；公开版有了再挂演示。
+        </p>
+      </div>
     </section>
 
-    <section aria-labelledby="connect">
-      <h2 id="connect">联系</h2>
-      <p class="prose">
-        想试用小桃子、聊插件协作，或者只是随便问问，都可以从这里找我。
-      </p>
-      <p class="prose links second">
-        <a href="https://ct.xiaotaozi.cc">ct.xiaotaozi.cc</a>
-        <span aria-hidden="true">·</span>
-        <a href="https://github.com/kedoupi">GitHub</a>
-        <span aria-hidden="true">·</span>
-        <a href="docs/">知识库</a>
-      </p>
+    <section class="close">
+      <h2>联系</h2>
+      <p>想试用小桃子、聊插件协作，或者随便问问，都可以从这里找我。</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://ct.xiaotaozi.cc">ct.xiaotaozi.cc</a>
+        <a class="btn btn-ghost" href="https://github.com/kedoupi">GitHub</a>
+        <a class="btn btn-ghost" href="docs/">知识库</a>
+      </div>
     </section>
 
     <footer>
-      <p>kedoupi · 小桃子</p>
+      <p>kedoupi · 小桃子 · 与 <a href="https://dsh.xiaotaozi.cc/">dsh.xiaotaozi.cc</a> 同系视觉</p>
     </footer>
   </main>
 </body>
