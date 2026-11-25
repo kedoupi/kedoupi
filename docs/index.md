@@ -8,7 +8,7 @@
 - [编程学习](./learning/programming/) — 目前有 [JavaScript](./learning/programming/javascript.md)
 
 ### 项目文档
-- [公开项目](./projects/) — 小桃子 / Agent 工具线与精选公开仓库
+- [项目方向](./projects/) — 小桃子 / Agent 工具与开发者效率
 
 ### 个人思考
 - [技术趋势](./thoughts/tech-trends/)
@@ -22,9 +22,10 @@
 
 ## 最近更新
 
+- 2026-11 — 更新项目展示，移除已下架项目入口
 - 2026-09 — 对齐小桃子 / Agent 主线，清理死链
 - 2024-01 — 知识库初始化
 
 ---
 
-*最后更新：2026年9月*
+*最后更新：2026年11月*

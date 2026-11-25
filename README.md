@@ -32,7 +32,7 @@ const me = {
 
 - 🍑 &nbsp;&nbsp;正在做 **小桃子**：面向中文开发者的 AI Agent 工具、桌面端和插件生态
 - 🚀 &nbsp;&nbsp;**独立开发者**，从产品、工程到发布自己闭环
-- 🧰 &nbsp;&nbsp;公开仓库覆盖 DeepSeek Harness 插件、中文 AI 终端、Pi 包、Agent Skills
+- 🧰 &nbsp;&nbsp;专注 AI Agent、本地优先工作流与实用开发工具
 - 🌏 &nbsp;&nbsp;**数字游民**，远程工作，边旅行边写代码
 
 <br/>
@@ -57,44 +57,13 @@ const me = {
 
 <br/>
 
-### 🚀 精选项目
-
-只列公开仓库。小桃子桌面端 / 公众号智能体等仍在私有仓库推进，这里不放演示链接。
-
-| 项目 | 简介 |
-| :-- | :-- |
-| [**xiaotaozi-dsh**](https://github.com/kedoupi/xiaotaozi-dsh) | 🍑 小桃子 DSH：`xtz` CLI + DeepSeek Harness 插件。模型服务商、IM、企业微信办公、侧栏工作台、小桃子市场 |
-| [**tzWarp**](https://github.com/kedoupi/tzWarp) | 🖥️ 中文 AI 终端（Rust），基于开源 Warp。直连小桃子中转，命令先出卡片再确认执行 |
-| [**pi-plugins**](https://github.com/kedoupi/pi-plugins) | 📦 Pi 生态一等公民插件与精选目录，含飞书 IM 等 first-party package |
-| [**portfolio-monitor**](https://github.com/kedoupi/portfolio-monitor) | 📊 股票监控工作台 · 美股 + A股实时行情 + 多档 Telegram 告警 · Docker 一键部署 |
-| [**taozi-plugin**](https://github.com/kedoupi/taozi-plugin) | 🔌 Claude Code / Codex 插件工具集 · 工作流 + Skills + Hooks + AI 创作 |
-
-<br/>
-
-### 🧩 Agent Skills
-
-[kedoupi/skills](https://github.com/kedoupi/skills) 是公开的 skill 孵化器，产品 skill 各自独立发版：
-
-| Skill | 做什么 |
-| :-- | :-- |
-| [**tzai-image-skill**](https://github.com/kedoupi/tzai-image-skill) | 经 TaoziAPI 做自然语言生图 / 视觉项目 |
-| [**wechat-mp-skill**](https://github.com/kedoupi/wechat-mp-skill) | 微信公众号成稿 + 本地预览，可选草稿箱 |
-| [**lark-push-skill**](https://github.com/kedoupi/lark-push-skill) | 飞书 / Lark 进度、日报、发布通知 |
-
-```bash
-npx skills add kedoupi/tzai-image-skill -g --all
-npx skills add kedoupi/wechat-mp-skill
-npx skills add kedoupi/lark-push-skill
-```
-
-<br/>
-
 ### 🔭 目前在做
 
-- 🍑 持续打磨 **小桃子 DSH**：界面、市场、IM、模型服务商，以及配套 Mac 客户端
-- 📦 建设 **Pi 插件** 与 **Agent Skill** 生态
-- 🖥️ 推进小桃子产品族（桌面 Agent 工作站、公众号智能体等，部分仓库暂未公开）
-- ✍️ 分享独立开发与数字游民的经验
+- 🍑 **小桃子 / Xiaotaozi**：探索 AI Agent 工具与桌面工作流。
+- 🧰 **开发者效率**：持续改进本地工具、自动化与日常创作体验。
+- ✍️ **独立开发**：从需求、设计、工程到发布，关注长期可用性。
+
+当前项目以私有开发为主，暂不提供公开源码或安装入口。
 
 <br/>
 
